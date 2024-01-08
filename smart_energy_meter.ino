@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3uVgcSM7e"
-#define BLYNK_TEMPLATE_NAME "energy meter"
-#define BLYNK_AUTH_TOKEN "pz49enTnNWzr0k9eZzv7xPQ23lquI_4z"
+#define BLYNK_TEMPLATE_ID "your.template.id"
+#define BLYNK_TEMPLATE_NAME "template.name"
+#define BLYNK_AUTH_TOKEN "your.auth.token"
 #define BLYNK_PRINT Serial
  
 #include "EmonLib.h"   //https://github.com/openenergymonitor/EmonLib
@@ -13,9 +13,9 @@ EnergyMonitor emon;
 #define currCalibration 0.52
 BlynkTimer timer;
  
-char auth[] = "pz49enTnNWzr0k9eZzv7xPQ23lquI_4z";
+char auth[] = "your.auth.token";
  
-char ssid[] = "vivo1819";
+char ssid[] = "your.wifi.name";
 char pass[] = "password";
  
 float kWh = 0;
